@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:trees/savanna_random"
+    },
+    "features": [
+      [
+        "dave:trees/acacia_feature",
+        5
+      ],
+      [
+        "dave:trees/baobab_feature",
+        5
+      ]
+    ]
+  }
+}

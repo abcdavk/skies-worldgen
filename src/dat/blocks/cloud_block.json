@@ -1,0 +1,31 @@
+{
+  "format_version": "1.17",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dave:cloud_block"
+    },
+    "components": {
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 2,
+      "minecraft:flammable": {
+        "burn_odds": 50,
+        "flame_odds": 50
+      },
+      "minecraft:destroy_time": 0.2,
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "opaque",
+          "texture": "cloud_block",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "on_placing"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:on_player_destroyed": {
+        "event": "on_destroy"
+      }
+    }
+  }
+}

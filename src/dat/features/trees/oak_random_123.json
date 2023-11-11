@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:trees/oak_random_123"
+    },
+    "features": [
+      [
+        "dave:trees/oak_feature_1",
+        2
+      ],
+      [
+        "dave:trees/oak_feature_2",
+        5
+      ],
+      [
+        "dave:trees/oak_feature_3",
+        4
+      ]
+    ]
+  }
+}

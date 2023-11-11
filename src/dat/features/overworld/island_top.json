@@ -1,0 +1,32 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "dave:overworld/island_top"
+    },
+    "iterations": "v.noisemap.size = 512;
+v.base_height = 32;
+v.noise_offset = 64;
+v.height_variation = 96;
+v.multinoise.temp = q.noise(v.originx/v.noisemap.size, v.originz/v.noisemap.size);
+v.multinoise.hum = q.noise((v.originx + v.noise_offset) / v.noisemap.size, (v.originz - v.noise_offset) / v.noisemap.size) / 64;
+t.height = (q.noise(v.originz/128, v.originx/128) * v.height_variation) - 64;
+return t.height;",
+    "places_feature": "dave:single/stone",
+    "x": {
+      "extent": [
+        "(v.multinoise.temp) * (v.multinoise.hum)", 
+        0
+      ],
+      "distribution": "fixed_grid"
+    },
+    "z": 0,
+    "y": {
+      "extent": [
+        0,
+        "t.height"
+      ],
+      "distribution": "fixed_grid"
+    }
+  }
+}

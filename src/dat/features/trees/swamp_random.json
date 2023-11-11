@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:trees/swamp_random"
+    },
+    "features": [
+      [
+        "minecraft:swamp_tree_feature",
+        5
+      ],
+      [
+        "minecraft:mangrove_tree_feature",
+        5
+      ],
+      [
+        "minecraft:tall_mangrove_tree_feature",
+        5
+      ]
+    ]
+  }
+}

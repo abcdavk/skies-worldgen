@@ -1,0 +1,44 @@
+{
+  "format_version": "1.13",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:island_random_ore",
+      "places_feature": "dave:single/random_ore"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld_generation"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 64,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": "query.above_top_solid(v.worldx,v.worldz) - 1"
+    }
+  }
+}

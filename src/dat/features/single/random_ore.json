@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:single/random_ore"
+    },
+    "features": [
+      [
+        "dave:single/coal_ore",
+        10
+      ],
+      [
+        "dave:single/copper_ore",
+        8
+      ],
+      [
+        "dave:single/iron_ore",
+        6
+      ],
+      [
+        "dave:single/redstone_ore",
+        4
+      ]
+    ]
+  }
+}

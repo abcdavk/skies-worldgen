@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:single/swamp/aggregate"
+    },
+    "features": [
+      [
+      "dave:single/swamp/clay",
+        5
+      ],
+      [
+      "dave:single/swamp/sand",
+        5
+      ],
+      [
+      "dave:single/swamp/gravel",
+        5
+      ]
+    ]
+  }
+}

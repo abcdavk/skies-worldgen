@@ -1,0 +1,51 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+      "description": {
+        "identifier": "dave:s_tree_rule",
+        "places_feature": "dave:trees/savanna_random"
+      },
+      "conditions": {
+        "placement_pass": "surface_pass",
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "savanna"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "mesa"
+              }
+            ]
+          }
+        ]
+      },
+      "distribution": {
+        "iterations": 1,
+        "x": {
+          "distribution": "gaussian",
+          "extent": [
+            0,
+            15
+          ]
+        },
+        "y": "(query.above_top_solid(v.worldx,v.worldz))",
+        "z": {
+          "distribution": "gaussian",
+          "extent": [
+            0,
+            15
+          ]
+        }
+      }
+    }
+  }

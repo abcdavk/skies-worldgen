@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:trees/roofed_random"
+    },
+    "features": [
+      [
+        "minecraft:roofed_tree_feature",
+        5
+      ],
+      [
+        "minecraft:roofed_tree_with_vines_feature",
+        5
+      ]
+    ]
+  }
+}

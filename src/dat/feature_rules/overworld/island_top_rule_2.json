@@ -1,0 +1,56 @@
+{
+  "format_version": "1.13",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:island_top_rule_2",
+      "places_feature": "dave:overworld/island_top"
+    },
+    "conditions": {
+      "placement_pass": "before_underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            }
+          ]
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "swamp"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "mangrove"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": 96
+    }
+  }
+}

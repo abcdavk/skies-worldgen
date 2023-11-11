@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:single/base_random"
+    },
+    "features": [
+      [
+        "dave:single/base_stone",
+        10
+      ],
+      [
+        "dave:single/base_cobblestone",
+        3
+      ],
+      [
+        "dave:single/base_mossy_cobblestone",
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "cloud_block": {
+      "textures": "textures/blocks/cloud"
+    },
+    "beach_grass": {
+      "textures": "textures/blocks/beach_grass",
+      "overlay_color": "#feffed"
+    },
+    "cattail": {
+      "textures": "textures/blocks/cattail",
+      "overlay_color": "#ffffff"
+    },
+    "dry_grass": {
+      "textures": "textures/blocks/dry_grass",
+      "overlay_color": "#ffffff"
+    },
+    "tall_dead_bush": {
+      "textures": "textures/blocks/tall_dead_bush",
+      "overlay_color": "#ffffff"
+    },
+    "tall_acacia": {
+      "textures": "textures/blocks/tall_acacia",
+      "overlay_color": "#ffffff"
+    },
+    "baobab_leaves": {
+      "textures": "textures/blocks/baobab/1",
+      "overlay_color": "#75894d"
+    },
+    "baobab_leaves_dry": {
+      "textures": "textures/blocks/baobab/0",
+      "overlay_color": "#75894d"
+    },
+    "fir_leaves": {
+      "textures": "textures/blocks/fir_leaves",
+      "overlay_color": "#75894d"
+    },
+    "frosted_leaves": {
+      "textures": "textures/blocks/frosted_leaves",
+      "overlay_color": "#75894d"
+    },
+    "mapple_leaves_orange": {
+      "textures": "textures/blocks/mapple_leaves/0",
+      "overlay_color": "#75894d"
+    },
+    "mapple_leaves_red": {
+      "textures": "textures/blocks/mapple_leaves/1",
+      "overlay_color": "#75894d"
+    },
+    "large_bush": {
+      "textures": "textures/blocks/large/bush",
+      "overlay_color": "#ffffff"
+    },
+    "large_deadbush": {
+      "textures": "textures/blocks/large/deadbush",
+      "overlay_color": "#ffffff"
+    },
+    "large_sapling_oak": {
+      "textures": "textures/blocks/large/oak",
+      "overlay_color": "#ffffff"
+    },
+    "large_sapling_birch": {
+      "textures": "textures/blocks/large/birch",
+      "overlay_color": "#ffffff"
+    },
+    "large_sapling_spruce": {
+      "textures": "textures/blocks/large/spruce",
+      "overlay_color": "#ffffff"
+    },
+    "large_tallgrass": {
+      "textures": "textures/blocks/large/tallgrass"
+    },
+    "upsidedown_flower0": {
+      "textures": "textures/blocks/upsidedown_flower/0"
+    },
+    "upsidedown_flower1": {
+      "textures": "textures/blocks/upsidedown_flower/1"
+    },
+    "upsidedown_flower2": {
+      "textures": "textures/blocks/upsidedown_flower/2"
+    },
+    "upsidedown_flower3": {
+      "textures": "textures/blocks/upsidedown_flower/3"
+    }
+  }
+}

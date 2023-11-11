@@ -1,0 +1,69 @@
+{
+  "dave:cloud_block": {
+    "sound": "cloth"
+  },
+  "dave:large_tallgrass": {
+    "sound": "grass",
+    "textures" : "large_tallgrass"
+  },
+  "dave:dry_grass": {
+    "sound": "grass"
+  },
+  "dave:tall_dead_bush": {
+    "sound": "grass"
+  },
+  "dave:tall_acacia": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower0": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower1": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower2": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower3": {
+    "sound": "grass"
+  },
+  "dave:large_bush": {
+    "sound": "grass"
+  },
+  "dave:large_deadbush": {
+    "sound": "grass"
+  },
+  "dave:large_sapling_oak": {
+    "sound": "grass"
+  },
+  "dave:large_sapling_birch": {
+    "sound": "grass"
+  },
+  "dave:large_sapling_spruce": {
+    "sound": "grass"
+  },
+  "dave:beach_grass": {
+    "sound": "grass"
+  },
+  "dave:cattail": {
+    "sound": "grass"
+  },
+  "dave:mapple_leaves_orange": {
+    "sound": "grass"
+  },
+  "dave:mapple_leaves_red": {
+    "sound": "grass"
+  },
+  "dave:frosted_leaves": {
+    "sound": "grass"
+  },
+  "dave:fir_leaves": {
+    "sound": "grass"
+  },
+  "dave:baobab_leaves": {
+    "sound": "grass"
+  },
+  "dave:baobab_leaves_dry": {
+    "sound": "grass"
+  }
+}

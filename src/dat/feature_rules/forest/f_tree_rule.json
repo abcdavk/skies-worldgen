@@ -1,0 +1,66 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+      "description": {
+        "identifier": "dave:f_tree_rule",
+        "places_feature": "dave:trees/oak_random_123"
+      },
+    "conditions": {
+      "placement_pass": "before_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest_generation"
+            }
+          ]
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "birch"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "roofed"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "extreme_hills"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "taiga"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 3,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "(query.above_top_solid(v.worldx,v.worldz))",
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/none",
+        "atlas_tile": "none",
+        "ticks_per_frame": 2
+    }
+]

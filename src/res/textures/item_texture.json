@@ -1,0 +1,27 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "book_of_noctura": {
+      "textures": "textures/items/book_of_noctura"
+    },
+    "key_1": {
+      "textures": "textures/items/key/1"
+    },
+    "key_2": {
+      "textures": "textures/items/key/2"
+    },
+    "key_3": {
+      "textures": "textures/items/key/3"
+    },
+    "key_4": {
+      "textures": "textures/items/key/4"
+    },
+    "key_5": {
+      "textures": "textures/items/key/5"
+    },
+    "key_6": {
+      "textures": "textures/items/key/6"
+    }
+  }
+}
